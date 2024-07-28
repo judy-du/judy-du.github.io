@@ -9,8 +9,8 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'docs', // Correct placement of the outDir option
     rollupOptions: {
+      outDir: 'docs', // Set the output directory to 'docs'
       input: {
         main: './index.html',
         style: './src/style.css' // Make sure Vite knows to bundle this file
