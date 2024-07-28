@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Build output directory
+dist/
+
+# Backup and temporary files
+*vite.config copy.js
+*tailwind.config.js.bak
